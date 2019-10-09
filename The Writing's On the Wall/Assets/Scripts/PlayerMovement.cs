@@ -90,5 +90,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         coroutineInProgress = false;
+        moveVelocity = Vector3.zero;
     }
 }
